@@ -1,4 +1,4 @@
-##AUTO INSTAGRAM FOLLOWER
+# AUTO INSTAGRAM FOLLOWER
 
 You firstly need to install selenium package
 
