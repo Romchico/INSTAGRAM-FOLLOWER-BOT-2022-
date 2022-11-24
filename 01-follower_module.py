@@ -1,16 +1,17 @@
 
 
 def follower_start(link, cookie="user-data-dir=C:\\Users\\Romka\\Desktop\\cookie1", post_place=0):
-    """We should use same cookie, to not log in every time. For new cookie, you only need to create new folder and
-     assign the path. The link depends on which account followers you want to follow. Post_place holds.
-      Post_place indicates which post(starting from last post) you want to follow the likes."""
+    """We should use same cookie, to not log in every time. For first time, you should login manually.
+       For new cookie, you only need to create new folder and
+       assign the path. The link depends on which account followers you want to follow.
+       post_place indicates which post(starting from last post) place you want to follow the likes."""
     from time import sleep
     import random
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.chrome.options import Options
     import smtplib
-
+    
 
     def driver_start():
         option = Options()
